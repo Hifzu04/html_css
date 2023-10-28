@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="CssBoxModel.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Waterfall&display=swap" rel="stylesheet">
+    <title>Form filling</title>
+</head>
+
+<body>
+    <h1>BASIC INFO</h1>
+    <form action="/hifzur.com">
+        <p class="HIFZU">
+            <label for="xyz">Enter Your name, Sir</label>
+            <input type="text" placeholder="Enter Your name" id="xyz" name="username">
+        </p>
+        <p class="HIFZU">
+            <label for="password">Enter password
+            </label>
+            <input type="password" placeholder="Enter Your password" id="password" name="pass">
+        </p>
+        <p><label for="color">Pick any color</label>
+            <input type="color" id="color" name="color">
+        </p>
+        <p>
+            <label for="nunber">pick a number</label>
+            <input type="number" name="number" id="nunber" min="1" max="10">
+        </p>
+        <P>
+            <label for="eml">Enter email</label>
+            <input type="email" placeholder="enter your email" id="eml" name="email">
+        </P>
+        <p><label for="dob">Select your d.o.b.</label>
+            <input type="date" placeholer="Enter your date of Birth" id="dob" name="paidaaish">
+        </p>
+        <button id="submitting" type="submit">submit</button>
+        <button id="just" type="button">its just button</button>
+    </form>
+    <hr>
+    <!-- after submitting through submit button -->
+    <!--file:///hifzur.com?username=mohammad&pass=1234&color=%235730b0&email=hifzurrhafk%40gmail.com&paidaaish=2023-08-02 -->
+
+    <span>
+        <form action="https://www.google.com/search">
+            <h2>
+                <p>Search in google</p>
+            </h2>
+            <P>
+                <input type=" search" name="q" placeholder="google search">
+                <button type="submit">search</button>
+            </P>
+        </form>
+
+        <h2>
+            <p>Search in reddit</p>
+        </h2>
+        <form action="https://www.reddit.com/search/">
+            <input type="search" name="q" placeholder="reddit search">
+            <button type="submit">search</button>
+        </form>
+        <p>
+        <h2>
+            <p>search in youtube</p>
+        </h2>
+        <form action="https://www.youtube.com/results?">
+            <input type="search" name="search_query" placeholder="youtube search">
+            <button>UTube search</button>
+        </form>
+        </p>
+    </span>
+    <hr>
+
+    <p>
+    <form action=" /hifzur">
+        <p>choose a size !!!</p>
+        <label for="s">S</label>
+        <input type="radio" name="size" id="s" value="small">
+        <label for="m">M</label>
+        <input type="radio" name="size" id="m" value="medium">
+        <label for="l">L</label>
+        <input type="radio" name="size" id="l" value="large">
+
+        <P>
+            <label for="check">I agree to tearms and conditions:</label>
+            <input type="checkbox" name="TermsAndCondition" id="check" checked>
+
+        </P>
+
+
+
+        </p>
+        <p>
+        <form action="nadeem.xyz">
+            <label for="hrkhan">Select ur fav sports</label>
+            <select name="sports" id="hrkhan">
+                <option value="cricket">cricket</option>
+                <option value="kabaddi">kabaddi</option>
+                <option value="football">football</option>
+                <option value="Volleyball">Volleyball</option>
+                <option value="Gilli-Danda">Gilli-Danda</option>
+                <option value="Hockey">Hockey</option>
+            </select>
+            <br>
+            <div>
+                <input type="range" name="volume" id="vol">
+                <label for="vol">Pick the volume</label>
+                <br>
+                <input type="range" name="skill" id="skill" min="10" max="200" step="10" value="200">
+                <label for="skill">pick your skill level</label>
+                <button type="submit">submit</button>
+                <p>
+                    <label for="story">tell about Yourself</label>
+                    <br>
+                    <textarea name="story" placeholder="write about Yourself" id="story" cols="30" rows="10"></textarea>
+                </p>
+        </form>
+
+        <p>
+        <form action="kalam.com">
+            <input type="text" placeholder="enter  a text" id="txt" name="ur_name" required>
+            <label for="txt">enter your name</label>
+            <br>
+            <input type="text" id="ttt" minlength="2" maxlength="5" name="word_picked">
+            <label for="ttt">enter a word b/w 2 to 5</label>
+            <button id="submit-button">submit</button>
+
+        </form>
+        </p>
+        </div>
+
+
+        </p>
+
+
+
+</body>
+
+</html>

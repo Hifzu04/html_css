@@ -1,0 +1,51 @@
+#amezing {
+    background-color: #85c1c444;
+    /* background-image: url("https://images.unsplash.com/photo-1519865885898-a54a6f2c7eea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3BsYXNofGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"); */
+}
+
+h1 {
+    color: blueviolet;
+    /*named sysem for color change (140 totoal) */
+    text-align: center;
+    font-weight: bold;
+    /*normal, lighter, bold, 400 , 700 */
+    text-decoration: #cd811e dotted underline;
+    letter-spacing: 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif, ;
+
+
+}
+
+h2 {
+    /* color: rgb(71, 80, 214); */
+    /* total 255 intensity value of each rgb*/
+    background-color: rgb(51, 215, 215);
+    text-decoration: rgb(86, 72, 135) wavy underline;
+    font-family: cursive;
+}
+
+div {
+    /* background-color: aliceblue; */
+    color: #372504;
+    /*hexadecimal system of picking the color*/
+    line-height: 2.5;
+    /* (n%, npx, decimal from)gap between the line1 , line2 .... */
+    letter-spacing: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* * {
+    background-color: #cd811e;
+} */
+#sunImage {
+    /* position: fixed; */
+    /* on scrolling,its position will not change */
+    position: relative;
+    left:  50%;
+
+    
+}

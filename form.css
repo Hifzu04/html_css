@@ -1,0 +1,136 @@
+body {
+    background-color: rgb(255, 245, 224, .5);
+    background-image: url(https://images.unsplash.com/photo-1696801946118-bfaeeb1e3132?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=988&q=80);
+    background-size: contain; 
+    /* background-size: auto; */
+}
+
+hr {
+    color: bisque;
+
+}
+
+h1 {
+    color: darkslateblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 10px;
+    /* text-decoration: rgb(146, 91, 91) underline; */
+    border: 1px solid rgb(81, 28, 28);
+    border-left: 15px solid rgb(81, 28, 28);
+    border-top: 0px;
+    border-right: 0px;
+    padding: 20px;
+    /* border-radius: 10px; */
+    width: 300px;
+    height: fit-content;
+    /*set the width of an element's content box*/
+
+    transition: 3s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/* id selector: unique selection */
+#submitting,
+#just {
+    background-color: rgba(201, 66, 66, 0.521);
+    color: rgb(5, 43, 48);
+    font-size: 130%;
+    margin: 10px;
+    padding: 3px;
+    border: solid rgb(157, 104, 104) 4px;
+    border-radius: 10%;
+    transition: 3s;
+
+}
+
+#submitting:hover {
+    width: 10%;
+    border-radius: 50%;
+    background-color: darkgreen;
+}
+
+/* class selector : hifzu jaha jaha hoga waha change  */
+.HIFZU {
+    color: rgb(100, 0, 0);
+}
+
+#xyz,
+#password {
+    color: brown;
+    background-color: rgb(211, 220, 175);
+}
+
+/* descendnt selector */
+span button {
+    background-color: darkslateblue;
+    font-size: larger;
+    border: 20px;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+
+span input {
+    color: darkolivegreen;
+}
+
+span h2 {
+    font-size: 160%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+/* attribute selector: select only whose attribute u'll mention */
+input[type="number"] {
+    color: red;
+    background-color: rgb(211, 220, 175)
+}
+
+/* pseudo class ie hover, active, checked, first
+not, first child, nth-of-type() */
+h1:hover {
+    /* color: red; */
+    width: 20%;
+    background-color: darkorange;
+    border-radius: 10%;
+}
+
+#story:active {
+    color: darkgreen;
+
+}
+
+::selection {
+    color: rgb(222, 208, 12, );
+}
+
+#xyz,
+#password {
+    margin: 10px;
+
+}
+
+#submit-button{
+    background-color: #151b29;
+    color: #ffa260;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.5s;
+}
+
+#submit-button:hover{
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0em .5em 0.5em -0.4em #ffa260;
+    transform: translateY(-0.25em);
+}
+
+/* note */
+/* cascading: specific oreder/priority are applied for determinig
+ which style should be applied when multiple conflicting styles are +nt in sheet */
+/* specificty: inline tyle(within html)>#id>.class>element
+ !important : always ignore the specificity factor */
+/* css  inherents : learn  */
